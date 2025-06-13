@@ -2,7 +2,7 @@ import React from 'react'
 
  function HeroSlider() {
   return (
-    <div className='w-full h-screen flex justify-center items-center bg-red-500/30 md:bg-gray-900/85 py-8 '>
+    <div className='w-full h-screen flex justify-center items-centebg-gray-900/85 py-8 '>
         
         <div className='flex flex-col gap-3 justify-center bg-[#1c2a33] rounded-2xl items-center px-20 py-5 md:max-w-[1000px] mx-auto   '>
             <h1 className='text-4xl md:text-6xl  text-gray-400 font-bold text-center uppercase md:leading-[60px]'>
