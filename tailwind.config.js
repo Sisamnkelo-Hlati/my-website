@@ -11,7 +11,7 @@ module.exports = {
       xl: '1400px'
     },
     backgroundImage: {
-      hero: 'url(/public/assets/cleaning3.jpg)'
+      hero: 'url(/public/assets/dzu-1.jpg)'
     },
     extend: {},
   },
