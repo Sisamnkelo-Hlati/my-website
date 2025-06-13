@@ -5,7 +5,7 @@ function Projects() {
   return (
     <div className=' w-full flex flex-col  md:px-[1rem]   bg-[#3E4C58] '>
        <div className='md:max-w-[1190px] w-full mx-auto px-2 h-full  '>
-        <div className='bg-[#1c2a33]'>
+        <div className='bg-[#1c2a33] pt-3 md:pt-0'>
        <div
            
            className='md:flex md:flex-col items-center text-center md:max-w-[700px] md:mx-auto md:p-8 md:px-20'>
@@ -82,8 +82,8 @@ function Projects() {
           
       </div>
       </div>
-      <div className='flex md:flex-col items-center text-center md:max-w-[700px] md:mx-auto md:p-8 md:px-20'>
-      <button className='text-white mt-3  h-[50px] w-[210px] capitalize font-bold tracking-wider flex items-center gap-3'>Learn more <GoArrowRight className='text-xl'/> </button>
+      <div className='flex justify-center  md:flex-col items-center text-center md:max-w-[700px] md:mx-auto md:p-8 md:px-20'>
+      <button className='text-white mt-3 mb-3 md:mb-0 h-[50px] w-[210px] capitalize font-bold tracking-wider flex items-center gap-3'>Learn more <GoArrowRight className='text-xl'/> </button>
       </div>
       </div>
       </div>

@@ -8,12 +8,12 @@ function Services() {
   return (
     <div name='services' className='w-full h-full bg-[#3E4C58] '>
         <div className='md:max-w-[1190px] w-full mx-auto px-2 h-full '>
-          <div className='bg-[#243640]'>
+          <div className='bg-[#243640] pt-3 md:pt-0'>
         <div
            
            className='md:flex md:flex-col text-center md:items-center md:max-w-[700px] md:mx-auto md:p-8 md:px-20'>
              <h2 className='mb-3 text-3xl md:text-4xl text-gray-300 font-bold tracking-wider uppercase'>Knowledge Areas</h2>
-             <p className=' w-full  text-gray-300 text-center '> While working for Outflow, I have gained experience in the following areas, namely PowerBI, Advanced Microsoft excel, Visual Basice For Application and Software development
+             <p className=' w-full  text-gray-300 text-center px-2 md:px-0'> While working for Outflow, I have gained experience in the following areas, namely PowerBI, Advanced Microsoft excel, Visual Basice For Application and Software development
               </p>
 
            </div>

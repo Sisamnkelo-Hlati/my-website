@@ -4,12 +4,12 @@ function Contact() {
   return (
     <div className=' w-full flex flex-col items-center  bg-[#3E4C58]'>
        <div className='md:max-w-[1190px] w-full mx-auto px-2 h-full '>
-        <div className='bg-[#243640]'>
+        <div className='bg-[#243640] pt-3 md:pt-0'>
        <div
            
            className='md:flex md:flex-col text-center md:items-center md:max-w-[700px] md:mx-auto md:p-8 md:px-20'>
              <h2 className='mb-3 text-3xl md:text-4xl text-gray-300 font-bold tracking-wider uppercase'>Contact</h2>
-             <p className=' w-full  text-gray-300 text-center '>  Our services cater for both residential and commercial clients
+             <p className=' w-full  text-gray-300 text-center mb-3 md:mb-0 '>  Our services cater for both residential and commercial clients
               </p>
 
           </div>
