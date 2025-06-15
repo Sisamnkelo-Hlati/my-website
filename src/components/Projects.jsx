@@ -1,11 +1,11 @@
 import React from 'react'
-import { GoArrowRight } from "react-icons/go";
+
 
 function Projects() {
   return (
-    <div className=' w-full flex flex-col  md:px-[1rem]   bg-[#3E4C58] '>
+    <div className=' w-full flex flex-col  md:px-[1rem]   bg-[#3E4C58]'>
        <div className='md:max-w-[1190px] w-full mx-auto px-2 h-full  '>
-        <div className='bg-[#1c2a33] pt-3 md:pt-0'>
+        <div className='bg-[#1c2a33] pt-5 md:pt-0 pb-7'>
        <div
            
            className='md:flex md:flex-col items-center text-center md:max-w-[700px] md:mx-auto md:p-8 md:px-20'>
@@ -19,72 +19,70 @@ function Projects() {
         <div className='grid sm:grid-cols-2  md:grid-cols-4 gap-6 md:gap-2 md:pl-4 w-full'>
 
           <div className=' h-64 sm:col-span-1 md:col-span-2 rounded-md w-full relative'>
-            <div className='absolute bg-black/50 top-0 left-0 w-full h-full z-10 rounded-md flex justify-center items-center'>
+            <div className='absolute bg-black/40 top-0 left-0 w-full h-full z-10 rounded-md flex justify-center items-center'>
               <div className='flex flex-col justify-center items-center'>
-              <h1 className='text-4xl text-gray-200 font-bold '>Hello world</h1>
-              <p className='text-gray-300'>Lorem ipsum dolor sit amet consectetur </p>
+              <h1 className=' text-2xl md:text-4xl text-red-600 font-bold '>Social Media application</h1>
+              
              
               </div>
              
             </div>
-          <img className='   w-full h-full object-cover object-center rounded-md' src="/assets/office.jpg" alt="" />
+          <img className='   w-full h-full object-cover object-left-top rounded-md' src="/assets/face-1.jpg" alt="" />
 
           </div>
           <div className=' h-64 sm:col-span-1 md:col-span-2  rounded-md relative'>
-          <div className='absolute bg-black/50 top-0 left-0 w-full h-full z-10 rounded-md flex justify-center items-center'>
+          <div className='absolute bg-black/40 top-0 left-0 w-full h-full z-10 rounded-md flex justify-center items-center'>
               <div className='flex flex-col justify-center items-center'>
-              <h1 className='text-4xl text-gray-200 font-bold '>Hello world</h1>
-              <p className='text-gray-300'>Lorem ipsum dolor sit amet consectetur </p>
+              <h1 className='text-2xl md:text-4xl text-red-600 font-bold '>Field Service Management </h1>
+              
               
               </div>
              
           </div>
-          <img className='  h-full w-full  object-cover object-center rounded-md' src="/assets/cleaning5.jpg" alt="" />
+          <img className='  h-full w-full  object-cover object-left-top rounded-md' src="/assets/ui2.jpg" alt="" />
 
           </div>
           <div className=' h-64 w-full rounded-md relative'>
-          <div className='absolute bg-black/50 top-0 left-0 w-full h-full z-10 rounded-md flex justify-center items-center'>
+          <div className='absolute bg-black/40 top-0 left-0 w-full h-full z-10 rounded-md flex justify-center items-center'>
               <div className='flex flex-col justify-center items-center'>
-              <h1 className='text-4xl text-gray-200 font-bold '>Hello world</h1>
-              <p className='text-gray-300 md:w-[60%]'>Lorem ipsum dolor sit amet consectetur </p>
+              <h1 className='text-2xl md:text-4xl text-red-600 font-bold '> Dasboard</h1>
+              
              
               </div>
              
             </div>
-          <img className='   w-full h-full object-cover object-center rounded-md' src="/assets/window.jpg" alt="" />
+          <img className='   w-full h-full object-cover object-left-top rounded-md' src="/assets/secnd-1.jpg" alt="" />
 
           </div>
           <div className=' h-64 sm:col-span-1 md:col-span-2 w-full rounded-md relative'>
-          <div className='absolute bg-black/50 top-0 left-0 w-full h-full z-10 rounded-md flex justify-center items-center'>
+          <div className='absolute bg-black/40 top-0 left-0 w-full h-full z-10 rounded-md flex justify-center items-center'>
               <div className='flex flex-col justify-center items-center'>
-              <h1 className='text-4xl text-gray-200 font-bold '>Hello world</h1>
-              <p className='text-gray-300'>Lorem ipsum dolor sit amet consectetur </p>
+              <h1 className='text-2xl md:text-4xl text-red-600 font-bold '>Fuel Recons System</h1>
+              
              
               </div>
              
             </div>
-          <img className='   w-full h-full object-cover object-center rounded-md' src="/assets/cleaning2.jpg" alt="" />
+          <img className='   w-full h-full object-cover object-left-top rounded-md' src="/assets/d6.jpg" alt="" />
 
           </div>
           <div className=' h-64  w-full rounded-md relative'>
           <div className='absolute bg-black/50 top-0 left-0 w-full h-full z-10 rounded-md flex justify-center items-center'>
               <div className='flex flex-col justify-center items-center'>
-              <h1 className='text-4xl text-gray-200 font-bold '>Hello world</h1>
-              <p className='text-gray-300 md:w-[60%]'>Lorem ipsum dolor sit amet consectetur </p>
+              <h1 className='text-2xl md:text-4xl text-red-600 font-bold '>Website</h1>
+            
              
               </div>
              
           </div>
-          <img className='   w-full h-full object-cover object-center rounded-md' src="/assets/rug.jpg" alt="" />
+          <img className='   w-full h-full object-cover object-center rounded-md' src="/assets/first-1.jpg" alt="" />
 
           </div>
 
           
       </div>
       </div>
-      <div className='flex justify-center  md:flex-col items-center text-center md:max-w-[700px] md:mx-auto md:p-8 md:px-20'>
-      <button className='text-white mt-3 mb-3 md:mb-0 h-[50px] w-[210px] capitalize font-bold tracking-wider flex items-center gap-3'>Learn more <GoArrowRight className='text-xl'/> </button>
-      </div>
+      
       </div>
       </div>
       

@@ -10,7 +10,7 @@ function About() {
   return (
     <div className='w-full h-full  bg-[#3E4C58] '>
         <div className='md:max-w-[1190px] w-full mx-auto px-2 h-full'>
-            <div className='bg-[#1c2a33] pt-3 md:pt-0'>
+            <div className='bg-[#1c2a33] pt-5 md:pt-0'>
            <div >
           
            <div className='md:flex md:flex-col text-center md:items-center md:max-w-[700px] md:mx-auto md:p-8 md:px-20'>
@@ -26,7 +26,7 @@ function About() {
                 <li className='text-gray-300 text-7xl md:text-base mb-2 flex items-center gap-x-2'><TbTimelineEventFilled className='text-5xl text-gray-300'/> </li>
                 <div className=' w-[400px]'>
                     <h2 className='mb-3 text-2xl text-gray-300 font-bold tracking-wider uppercase'>Project Highlights</h2>
-                    <p className='text-gray-300  '>Developed a standard fuel reconciliation application for the bp retail network of over 470 sites.</p>
+                    <p className='text-gray-300  '>Developed a standard fuel reconciliation application for an oil major's retail network of over 470 sites.</p>
                     <p className='text-gray-300  '>Piloted the solution to approximately 10% of the network over three months, conducting site visits to gather real-time feedback on the tool for continuous improvement and data accuracy. </p>
                     <p className='text-gray-300  '>Facilitated handover process and training of RBMs, Ops Excellence team</p>
                     
@@ -67,7 +67,7 @@ function About() {
           </div>
 
           </div>
-          <img className='  h-64 w-full object-cover object-center ' src="/assets/cleaning2.jpg" alt="" />
+          <img className='  h-64 w-full object-cover object-left-top ' src="/assets/d2.jpg" alt="" />
 
            </div>
            

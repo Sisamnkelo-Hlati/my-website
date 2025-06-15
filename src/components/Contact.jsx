@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div className=' w-full flex flex-col items-center  bg-[#3E4C58]'>
        <div className='md:max-w-[1190px] w-full mx-auto px-2 h-full '>
-        <div className='bg-[#243640] pt-3 md:pt-0'>
+        <div className='bg-[#243640] pt-5 md:pt-0'>
        <div
            
            className='md:flex md:flex-col text-center md:items-center md:max-w-[700px] md:mx-auto md:p-8 md:px-20'>
@@ -19,7 +19,7 @@ function Contact() {
         <input type="text" name='name' placeholder='Enter your name' className='bg-transparent w-full p-3 border border-gray-500 focus:outline-none text-white' />
         <input type="text" name='email' placeholder='Enter your email' className='bg-transparent w-full p-3 border border-gray-500 focus:outline-none text-white' />
         <textarea name="messeage"  rows="10" placeholder='Enter your messege' className='bg-transparent w-full border border-gray-500 text-white focus:outline-none p-3'/>
-        <button className='text-white mt-3  bg-red-700 self-center h-[62px] w-[190px] border border-gray-500 uppercase font-bold tracking-wider'>Send</button>
+        <button className='text-white mt-5 md:mt-3 mb-5 md:mb-0  bg-red-700 self-center h-[62px] w-[190px] border border-gray-500 uppercase font-bold tracking-wider'>Send</button>
       </form>
           
        
