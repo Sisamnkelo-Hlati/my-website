@@ -9,8 +9,8 @@ function Projects() {
        <div
            
            className='md:flex md:flex-col items-center text-center md:max-w-[700px] md:mx-auto md:p-8 md:px-20'>
-             <h2 className='mb-3 text-3xl md:text-4xl text-gray-300 font-bold tracking-wider uppercase'>Gallery</h2>
-             <p className=' w-full  text-gray-300 text-center '>  Our services cater for both residential and commercial clients
+             <h2 className='mb-3 text-3xl md:text-4xl text-gray-400 font-bold tracking-wider uppercase'>Gallery</h2>
+             <p className=' w-full  text-gray-500 text-center '>  Check out some of my work here
               </p>
 
           </div>
@@ -19,9 +19,9 @@ function Projects() {
         <div className='grid sm:grid-cols-2  md:grid-cols-4 gap-6 md:gap-2 md:pl-4 w-full'>
 
           <div className=' h-64 sm:col-span-1 md:col-span-2 rounded-md w-full relative'>
-            <div className='absolute bg-black/40 top-0 left-0 w-full h-full z-10 rounded-md flex justify-center items-center'>
+            <div className='absolute bg-black/80 top-0 left-0 w-full h-full z-10 rounded-md flex justify-center items-center'>
               <div className='flex flex-col justify-center items-center'>
-              <h1 className=' text-2xl md:text-4xl text-red-600 font-bold '>Social Media application</h1>
+              <h1 className=' text-2xl md:text-4xl text-gray-500 font-bold '>Social Media application</h1>
               
              
               </div>
@@ -31,9 +31,9 @@ function Projects() {
 
           </div>
           <div className=' h-64 sm:col-span-1 md:col-span-2  rounded-md relative'>
-          <div className='absolute bg-black/40 top-0 left-0 w-full h-full z-10 rounded-md flex justify-center items-center'>
+          <div className='absolute bg-black/80 top-0 left-0 w-full h-full z-10 rounded-md flex justify-center items-center'>
               <div className='flex flex-col justify-center items-center'>
-              <h1 className='text-2xl md:text-4xl text-red-600 font-bold '>Field Service Management </h1>
+              <h1 className=' text-2xl md:text-4xl text-gray-500 font-bold '>Field Service Management </h1>
               
               
               </div>
@@ -43,9 +43,9 @@ function Projects() {
 
           </div>
           <div className=' h-64 w-full rounded-md relative'>
-          <div className='absolute bg-black/40 top-0 left-0 w-full h-full z-10 rounded-md flex justify-center items-center'>
+          <div className='absolute bg-black/80 top-0 left-0 w-full h-full z-10 rounded-md flex justify-center items-center'>
               <div className='flex flex-col justify-center items-center'>
-              <h1 className='text-2xl md:text-4xl text-red-600 font-bold '> Dasboard</h1>
+              <h1 className=' text-2xl md:text-4xl text-gray-500 font-bold '> Dasboard</h1>
               
              
               </div>
@@ -55,9 +55,9 @@ function Projects() {
 
           </div>
           <div className=' h-64 sm:col-span-1 md:col-span-2 w-full rounded-md relative'>
-          <div className='absolute bg-black/40 top-0 left-0 w-full h-full z-10 rounded-md flex justify-center items-center'>
+          <div className='absolute bg-black/80 top-0 left-0 w-full h-full z-10 rounded-md flex justify-center items-center'>
               <div className='flex flex-col justify-center items-center'>
-              <h1 className='text-2xl md:text-4xl text-red-600 font-bold '>Fuel Recons System</h1>
+              <h1 className=' text-2xl md:text-4xl text-gray-500 font-bold '>Fuel Recons System</h1>
               
              
               </div>
@@ -67,9 +67,9 @@ function Projects() {
 
           </div>
           <div className=' h-64  w-full rounded-md relative'>
-          <div className='absolute bg-black/50 top-0 left-0 w-full h-full z-10 rounded-md flex justify-center items-center'>
+          <div className='absolute bg-black/80 top-0 left-0 w-full h-full z-10 rounded-md flex justify-center items-center'>
               <div className='flex flex-col justify-center items-center'>
-              <h1 className='text-2xl md:text-4xl text-red-600 font-bold '>Website</h1>
+              <h1 className=' text-2xl md:text-4xl text-gray-500 font-bold '>Website</h1>
             
              
               </div>
