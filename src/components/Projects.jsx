@@ -3,7 +3,7 @@ import React from 'react'
 
 function Projects() {
   return (
-    <div className=' w-full flex flex-col  md:px-[1rem]   bg-[#3E4C58]'>
+    <div id='gallery' className=' w-full flex flex-col  md:px-[1rem]   bg-[#3E4C58]'>
        <div className='md:max-w-[1190px] w-full mx-auto px-2 h-full  '>
         <div className='bg-[#1c2a33] pt-5 md:pt-0 pb-7'>
        <div

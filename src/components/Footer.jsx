@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaPhone} from 'react-icons/fa'
 import {HiMail} from 'react-icons/hi'
+import { Link } from 'react-scroll'
 
 
 function Footer() {
@@ -18,10 +19,11 @@ function Footer() {
        <div className=''>
          <h1 className='text-xl text-gray-300 mb-3'>Navigations</h1>
        <ul className='md:flex flex-col gap-2 '>
-            <li className='text-gray-300 text-sm  mb-2  cursor-pointer hover:text-gray-300 duration-500'>Home</li>
-            <li className='text-gray-300 text-sm  mb-2  cursor-pointer hover:text-gray-300 duration-500'>Services</li>
-            <li className='text-gray-300 text-sm  mb-2  cursor-pointer hover:text-gray-300] duration-500'>About</li>
-            <li className='text-gray-300 text-sm   cursor-pointer hover:text-gray-300 duration-500'>Contact</li>
+            <Link to='hero' spy={true} smooth={true} offset={-200} duration={500}><li className='text-gray-300 text-sm  mb-2  cursor-pointer hover:text-gray-300 duration-500'>Home</li></Link>
+           <Link to='services'  spy={true} smooth={true} offset={-65} duration={500}><li className='text-gray-300 text-sm  mb-2  cursor-pointer hover:text-gray-300 duration-500'>Portfolio</li></Link> 
+            <Link to='about'  spy={true} smooth={true} offset={-65} duration={500}><li className='text-gray-300 text-sm  mb-2  cursor-pointer hover:text-gray-300 duration-500'>About</li></Link>
+            <Link to='gallery'  spy={true} smooth={true} offset={-65} duration={500}><li className='text-gray-300 text-sm  mb-2  cursor-pointer hover:text-gray-300 duration-500'>Gallery</li></Link>
+            <Link to='contact'  spy={true} smooth={true} offset={-65} duration={500}><li className='text-gray-300 text-sm   cursor-pointer hover:text-gray-300 duration-500'>Contact</li></Link>
         </ul>
        </div>
        <div>

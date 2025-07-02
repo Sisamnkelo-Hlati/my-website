@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
  function HeroSlider() {
   return (
@@ -11,7 +12,7 @@ import React from 'react'
             <p className='text-base md:text-2xl font-medium  text-gray-500 text-center ' >Prior to joining Outflow, I have worked as a freelance software developer, Economics tutor and a petrol attendant at Engen.</p>
             
             <div className=' ' >
-            <button className='text-white mt-4 bg-red-700 hover:bg-red-800 capitalize mb-8 h-[62px] w-[190px]'>Explore</button>
+           <Link to='gallery'  spy={true} smooth={true} offset={-65} duration={500}> <button className='text-white mt-4 bg-red-700 hover:bg-red-800 capitalize mb-8 h-[62px] w-[190px]'>Explore</button></Link>
             </div>
             
 

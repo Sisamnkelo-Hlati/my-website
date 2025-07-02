@@ -5,7 +5,7 @@ import HeroSlider from './HeroSlider'
 
 function Hero() {
   return (
-    <div className='w-full h-screen  bg-hero bg-cover bg-center bg-no-repeat '>
+    <div id='hero' className='w-full h-screen  bg-hero bg-cover bg-center bg-no-repeat '>
    
     
     <div className=''>
